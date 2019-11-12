@@ -22,7 +22,7 @@ services:
 
   nginx:
     image: nginx:latest
-    container_name: nginx
+    container_name: nginx-jenkins
     ports:
       - '80:80'
       - '443:443'
